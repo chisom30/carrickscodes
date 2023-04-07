@@ -1,0 +1,10 @@
+io\getarrays\server\resource\ServerResource.class
+io\getarrays\server\service\implementation\ServerServiceImpl.class
+io\getarrays\server\model\Server.class
+io\getarrays\server\model\Response$ResponseBuilder.class
+io\getarrays\server\model\Response$ResponseBuilderImpl.class
+io\getarrays\server\enumeration\Status.class
+io\getarrays\server\ServerApplication.class
+io\getarrays\server\service\ServerService.class
+io\getarrays\server\repository\ServerRepository.class
+io\getarrays\server\model\Response.class
