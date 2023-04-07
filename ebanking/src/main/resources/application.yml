@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/ebanking?autoReconnect=true
+    username: postgres
+    password: 1991
+#    Str0ngAdmInP@ssw0rd
+  jpa:
+    hibernate:
+      use-new-id-generator-mappings: false
+  liquibase:
+    change-log: classpath:/installers/changelog.xml
+
+
+##
+#logging:
+#  file.name: logs/app.log
+#  pattern:
+#    console: "%d [%t] %-5level %logger{36} - %msg%n"
+#    file: "%d [%t] %-5level %logger{36} - %msg%n"
+#  level:
+#    com.m2evorah: DEBUG
+#    org.springframework: DEBUG
+#    org.hibernate: DEBUG
+###
+##server:
+##  port: 8080
+##
+##
+##
+##
